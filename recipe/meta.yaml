@@ -1,5 +1,5 @@
 {% set name = "gemoji" %}
-{% set version = "3.0.1" %}
+{% set version = "4.1.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 80553f2f4932a7a95fb1b3c7c63f7dd937e7c8c610164bbdea28fd06eba5f36d
+  sha256: 734434020cbe964ea9d19086798797a47d23a170892de0ce55b74aa65d2ddc1a
 
 build:
   noarch: generic
